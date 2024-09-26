@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 80px;
+
+    & .navbar ul {
+        display: flex;
+        gap: 50px;
+        align-items: center;
+    }
+}
+
+main section {
+    display: flex;
+    padding: 40px 80px 40px 80px;
+
+    & .laesq {
+        display: flex;
+        flex-direction: column;
+        gap: 11px;
+
+        & .btn button {
+            background: #1F1F39;
+            padding: 10px;
+            border-radius: 10px;
+            color: white;
+            gap: 10px;
+            height: 66px 66px;
+        }
+
+        & .h1 {
+            font-size: 70px;
+            font-weight: 700;
+
+
+        }
+
+    }
+
+}
+
+
+.navbar ul button {
+    background: #1F1F39;
+    color: white;
+    padding: 8px;
+    border-radius: 8px;
+}
+
+.ladir img {
+    width: 770px;
+}
